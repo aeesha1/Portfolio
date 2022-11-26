@@ -48,7 +48,7 @@ const Contact = () => {
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
       ></Script>
       ;
-      <div className="absolute -top-20 -right-12 w-80 lg:-top-72 lg:-right-16 lg:rotate-45">
+      <div className="absolute -top-5 -right-10 w-80 lg:-top-72 lg:-right-16 lg:rotate-45">
         <Image src={astro} alt="astro-img" />
       </div>
       <div className="w-full flex flex-col align-middle justify-between lg:flex-row gap-10 lg:pr-14">
