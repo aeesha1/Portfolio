@@ -1,4 +1,6 @@
 import React from "react";
+import Script from "next/script";
+
 import { useEffect } from "react";
 
 import Image from "next/image";
@@ -41,10 +43,14 @@ const Contact = () => {
 
   return (
     <div className="relative z-50 bg-[#496363] py-10 px-20 font-lora">
+      <Script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+      ></Script>
+      ;
       <div className="absolute -top-28 -right-16 w-96 lg:-top-72 lg:-right-16 lg:rotate-45 ">
-        <Image src={astro} />
+        <Image src={astro} alt="astro-img" />
       </div>
-
       <div className="w-full flex flex-col align-middle justify-between lg:flex-row gap-10 lg:pr-14">
         <div className="flex align-start justify-start lg:flex-col lg:justify-center">
           <h2 className="text-green text-5xl">Keep In Touch!</h2>

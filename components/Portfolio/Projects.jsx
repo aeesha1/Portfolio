@@ -38,7 +38,7 @@ const Projects = () => {
               className="h-min mb-24 lg:mb-40"
             >
               <div className="relative w-full">
-                <Image src={ecomHome} className="rounded-xl" />
+                <Image alt="project-img" src={ecomHome} className="rounded-xl" />
               </div>
               <div className="text">
                 <h3 className="leading-10 font-bold text-xl">
@@ -56,7 +56,7 @@ const Projects = () => {
               className="h-min mb-24"
             >
               <div className="relative w-full">
-                <Image src={connectHome} className="rounded-xl" />
+                <Image alt="project-img" src={connectHome} className="rounded-xl" />
               </div>
               <div>
                 <h3 className="font-bold text-xl">
@@ -78,7 +78,7 @@ const Projects = () => {
               className="h-min mb-24 lg:mb-32"
             >
               <div className="relative  w-full">
-                <Image
+                <Image alt="project-img"
                   src={restaurantHome}
                   object-fit="cover"
                   className="rounded-xl"
@@ -103,7 +103,7 @@ const Projects = () => {
               className="h-min mb-24"
             >
               <div className="relative  w-full">
-                <Image src={movieHome} className="rounded-xl" />
+                <Image alt="project-img" src={movieHome} className="rounded-xl" />
               </div>
               <div>
                 <h3 className="font-bold text-xl">

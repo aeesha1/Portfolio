@@ -15,10 +15,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-          <script
-            type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-          ></script>
+          
 
           
           
