@@ -35,11 +35,11 @@ const Skills = () => {
           <h2 className="text-3xl font-noto mb-6">Who am I</h2>
           <p className="text-lg font-lora">
             I am a problem solver who enjoys taking on new challenges and using
-            code to try to automate and simplify problems. I am dedicated to
+            code to automate and simplify problems. I am dedicated to
             bringing my clients' ideas to life by paying close attention to
             every detail and inevitably fulfilling their expectations. When I'm
-            not coding, I like to listen to astrophysics podcasts, watch anime,
-            and learn about the incredible science of the human brain.
+            not coding, I like listening to astrophysics podcasts, watching anime,
+            and learning about the incredible science of the human brain.
           </p>
           <Carousel
             responsive={responsive}
