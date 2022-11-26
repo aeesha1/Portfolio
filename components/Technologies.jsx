@@ -5,7 +5,6 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { SiCss3 } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
-import { IoLogoVue } from "react-icons/io";
 
 const Technologies = () => {
   return (
