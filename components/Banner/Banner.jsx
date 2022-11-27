@@ -12,13 +12,12 @@ import Link from "next/link";
 
 const Banner = ({ mode, setMode }) => {
   return (
-    <section className="relative z-20 min-h-screen  bg-light bg-cover bg-no-repeat dark:bg-dark">
+    <section className="relative z-20 min-h-screen  bg-light bg-cover bg-no-repeat dark:bg-dark overflow-hidden">
       <div className="absolute bottom-24 -z-10 w-80 left-18 md:w-96 md:right-36 lg:top-20">
-        <Image
-          alt="astro-img"
+        <Image alt="astro-img"
           src={astrofall}
           object-fit="cover"
-          className="rotate-45 lg:-rotate-90"
+          className="rotate-12 lg:-rotate-90"
         />
       </div>
       <div className="z-50">
@@ -68,7 +67,10 @@ const Banner = ({ mode, setMode }) => {
               ]}
             />
           </h3>
+          
         </div>
+
+       
       </div>
     </section>
   );

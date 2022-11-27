@@ -42,13 +42,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="relative z-50 bg-[#496363] py-10 px-20 font-lora">
+    <div className="relative z-50 bg-[#496363] py-10 px-10 font-lora lg:px-20">
       <Script
         type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
       ></Script>
       ;
-      <div className="absolute -top-5 -right-8 w-80 lg:-top-72 lg:-right-16 lg:rotate-45">
+      <div className="absolute -top-40 right-2 w-80 lg:-top-72 lg:-right-16 lg:rotate-45">
         <Image src={astro} alt="astro-img" />
       </div>
       <div className="w-full flex flex-col align-middle justify-between lg:flex-row gap-10 lg:pr-14">

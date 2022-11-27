@@ -8,7 +8,7 @@ import Contact from "../components/contact/Contact.jsx";
 import Footer from "../components/Footer.jsx";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -20,9 +20,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="overflow-hidden">
         <Banner mode={darkMode} setMode={setDarkMode} />
-        <Projects mode={darkMode} setMode={setDarkMode} />
+        <Projects />
         <Contact />
         <Footer />
       </main>
