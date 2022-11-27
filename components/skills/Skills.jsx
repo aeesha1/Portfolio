@@ -40,7 +40,7 @@ const Skills = () => {
             like listening to astrophysics podcasts, watching anime, and
             learning about the incredible science of the human brain.
           </p>
-          <IconContext.Provider value={{ color: "gold" }}>
+          {/* <IconContext.Provider value={{ color: "gold" }}>
             <div className="relative w-full" >
               <Carousel
                 responsive={responsive}
@@ -105,7 +105,7 @@ const Skills = () => {
                 </div>
               </Carousel>
             </div>
-          </IconContext.Provider>
+          </IconContext.Provider> */}
         </div>
       </div>
     </section>
