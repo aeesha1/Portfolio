@@ -2,7 +2,7 @@ import React from "react";
 
 import { IconContext } from "react-icons";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
-import { GiAstronautHelmet } from "react-icons/gi";
+import { GiSpaceSuit } from "react-icons/gi";
 import Image from "next/image";
 
 import astrofall from "../../public/assets/astrofall.png";
@@ -23,9 +23,9 @@ const Banner = ({ mode, setMode }) => {
       </div>
       <div className="z-50">
         <nav className="py-10 px-10 mb-12 flex justify-between backdrop-blur-md md:px-20">
-          <div className="flex gap-2 items-center justify-center text-grey">
-            <GiAstronautHelmet fontSize={"2rem"} />
-            <h1 className="text-lg font-lora text-green dark:text-purple">
+          <div className="flex gap-2 items-center align-middle justify-center text-green">
+            <GiSpaceSuit fontSize={"2rem"} />
+            <h1 className="text-lg font-lora m-0 text-green dark:text-purple">
               Olamide Agboola
             </h1>
           </div>

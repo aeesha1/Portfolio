@@ -37,7 +37,6 @@ const Skills = () => {
             code to automate and simplify problems. I am dedicated to bringing
             my clients' ideas to life by paying close attention to every detail
             and inevitably fulfilling their expectations. When I'm not coding, I
-            like listening to astrophysics podcasts, watching anime, and
             learning about the incredible science of the human brain.
           </p>
           {/* <IconContext.Provider value={{ color: "gold" }}>
