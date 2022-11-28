@@ -18,6 +18,7 @@ const Banner = ({ mode, setMode }) => {
           src={astrofall}
           object-fit="cover"
           className="rotate-12 lg:-rotate-90"
+          priority
         />
       </div>
       <div className="z-50">

@@ -48,12 +48,12 @@ const Contact = () => {
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
       ></Script>
       ;
-      <div className="absolute -top-40 right-2 w-80 lg:-top-72 lg:-right-16 lg:rotate-45">
+      <div className="absolute -top-10 -right-20 -rotate-12 w-80 lg:-top-72 lg:-right-16 lg:rotate-45">
         <Image src={astro} alt="astro-img" />
       </div>
       <div className="w-full flex flex-col align-middle justify-between lg:flex-row gap-10 lg:pr-14">
         <div className="flex align-start justify-start lg:flex-col lg:justify-center">
-          <h2 className="text-green text-5xl">Keep In Touch!</h2>
+          <h2 className="text-green text-5xl w-4/5 lg:w-full">Keep In Touch!</h2>
         </div>
         <div className="w-full p-10 rounded-xl backdrop-blur-xl text-grey text-xl bg-opaquegreyish lg:w-1/2 lg:-mt-40">
           <Form onSubmit={submitForm} id="contact-form">
